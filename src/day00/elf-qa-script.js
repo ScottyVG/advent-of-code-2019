@@ -2,7 +2,7 @@ const assert = require('assert');
 
 const inverseCaptcha01 = require('./elf-script');
 
-describe('Day 1 - Part a: Inverse Captcha', () => {
+describe('Day 0 - Part a: Inverse Captcha - sample test', () => {
 	it('Calculate Inverse Captcha of 1122 correctly', () => {
 		assert.equal(3, inverseCaptcha01('1122'));
 	});

@@ -1,4 +1,4 @@
-const inverseCaptcha = (input) => {
+const elfFunctionA = (input) => {
 	return input
 		.split('')
 		.map((x) => parseInt(x))
@@ -17,4 +17,4 @@ const inverseCaptcha = (input) => {
 	}, 0);
 };
 
-module.exports = inverseCaptcha;
+module.exports = elfFunctionA;
