@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/day*/**/elf-qa-script.js",
+    "santashelper": "node ./src/elf-console.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottyVG/advent-of-code-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottyVG/advent-of-code-2019/issues"
+  },
+  "homepage": "https://github.com/ScottyVG/advent-of-code-2019#readme",
+  "dependencies": {
+    "mocha": "^6.2.2"
+  }
+}
